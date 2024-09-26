@@ -1,0 +1,617 @@
+body {
+    font-size: 12px !important;
+}
+
+input.form-control {
+    font-size: 12px !important;
+}
+
+.btn {
+    font-size: 12px !important;
+}
+
+a:hover {
+    color: #2739c1;
+}
+
+h4 {
+    color: #485ad1;
+}
+
+label {
+    color: #485ad1;
+    text-align: left !important;
+}
+
+p {
+    color: #485ad1;
+}
+
+th[scope="col"] {
+    color: #485ad1;
+    padding-top: 12px !important;
+    padding-bottom: 14px !important;
+}
+
+span {
+    color: #74788d;
+}
+
+input[type="file"] {
+    min-height: 45px;
+}
+
+.kt-content .row .col-md-12 h3 {
+    font-size: 1.5rem;
+}
+
+.kt-portlet .kt-portlet__body {
+    padding: 15px !important;
+}
+
+
+/*tablas*/
+
+.table th,
+.table td {
+    padding: 8px 10px;
+}
+
+.table thead th,
+.table thead td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+table.dataTable {
+    margin-top: 10px !important;
+}
+
+
+/*botones*/
+
+.btn-brand {
+    background-color: #485ad1;
+    border-color: #485ad1;
+    padding-right: 10px;
+}
+
+.btn-brand:hover,
+.btn-brand:active,
+.btn-brand:focus {
+    color: #fff !important;
+    background-color: #2739c1 !important;
+    border-color: #2739c1 !important;
+}
+
+button.buttons-excel.buttons-html5 {
+    background-color: #20c997;
+    border: none;
+    height: 35px;
+    border-radius: 3px;
+}
+
+button.buttons-excel.buttons-html5:hover {
+    background-color: #128261;
+}
+
+button.buttons-excel.buttons-html5 span {
+    color: white;
+    padding: 25px;
+}
+
+.btn-primary {
+    background-color: #485ad1;
+    border-color: #485ad1;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+    background-color: #2739c1;
+    border-color: #2739c1;
+}
+
+.btn-success {
+    background-color: #20c997;
+    border-color: #20c997;
+}
+
+.btn-success:hover,
+.btn-success:active,
+.btn-success:focus {
+    background-color: #128261;
+    border-color: #128261;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover,
+.btn-danger:active,
+.btn-danger:focus {
+    background-color: #851E28;
+    border-color: #851E28;
+}
+
+.btn-outline-brand {
+    color: #485ad1;
+    border-color: #485ad1;
+}
+
+.btn-outline-brand:hover,
+.btn-outline-brand:active,
+.btn-outline-brand:focus {
+    color: #ffffff;
+    background-color: #485ad1;
+    border-color: #485ad1;
+}
+
+li.paginate_button.page-item a:hover {
+    background-color: #485ad1;
+}
+
+.exportar-excel {
+    background-color: #20c997;
+    border-color: #20c997;
+}
+
+.exportar-excel:hover {
+    background-color: #128261;
+    border-color: #128261;
+}
+
+
+/*mas*/
+
+.kt-bg-brand {
+    background-color: #485ad1 !important;
+}
+
+.dataTables_wrapper .pagination .page-item.active>.page-link {
+    background-color: #485ad1;
+}
+
+.dataTables_wrapper .pagination .page-item.active>.page-link:hover {
+    background-color: #2739c1;
+}
+
+.dataTables_wrapper .pagination .page-item.next>.page-link:hover {
+    background-color: #2739c1;
+}
+
+.page-link:hover {
+    background-color: #2739c1 !important;
+}
+
+.paginate_button.page-item a:hover {
+    background-color: #2739c1 !important;
+}
+
+.paginate_button.page-item:hover {
+    background-color: #2739c1 !important;
+}
+
+.kt-badge.kt-badge--success {
+    background-color: #20c997;
+}
+
+.dropzone.dropzone-default.dropzone-brand {
+    border-color: #485ad1;
+}
+
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
+    background-color: #485ad1;
+    color: white;
+}
+
+
+/*Menu principal lateral*/
+
+#kt_aside_menu ul.kt-menu__nav li span.kt-menu__link-text {
+    font-size: 15px !important;
+    color: #666;
+}
+
+#kt_aside_menu ul.kt-menu__nav li span.kt-menu__link-text:hover {
+    color: #485ad1;
+}
+
+#kt_aside_menu ul.kt-menu__nav li span.kt-menu__link-text:active {
+    color: #485ad1;
+}
+
+#kt_aside_menu ul.kt-menu__nav li i.kt-menu__link-icon {
+    color: #485ad1;
+}
+
+#kt_aside_menu ul.kt-menu__subnav li span.kt-menu__link-text {
+    font-size: 13px !important;
+}
+
+#kt_aside_menu ul.kt-menu__subnav li a.kt-menu__link {
+    min-height: 30px;
+}
+
+
+/*Navegacion paginas anterior/siguiente*/
+
+#t1_info.dataTables_info,
+#t1_paginate.dataTables_paginate.paging_simple_numbers,
+#t1_length.dataTables_length {
+    margin-top: 15px;
+}
+
+#t1_length.dataTables_length select {
+    margin-left: 10px;
+}
+
+
+/*Buscador*/
+
+#t1_filter.dataTables_filter,
+#slectProvincias {
+    margin-top: -38px;
+}
+
+div.dataTables_wrapper div.dataTables_filter input {
+    margin-left: 10px;
+}
+
+
+/*Iconos edicion*/
+
+a[title="Ver"] i,
+a[title="Editar"] i,
+a[title="Borrar"] i {
+    padding-right: 0px !important;
+}
+
+
+/*Incio*/
+
+.kt-content .kt-portlet .kt-portlet__body .kt-notification a.kt-notification__item {
+    padding: 5px 10px;
+}
+
+.kt-widget-21__title {
+    margin-left: 0rem;
+}
+
+.kt-portlet__body.kt-portlet__body--fluid #totalIn.kt-widget-21__label {
+    margin-left: 0px !important;
+}
+
+.kt-portlet__body.kt-portlet__body--fluid img.kt-widget-21__bg {
+    margin-left: 20px !important;
+}
+
+.kt-widget-21 .kt-widget-21__data {
+    justify-content: center;
+}
+
+.kt-portlet__body.kt-portlet__body--fluid #totalIn2.kt-widget-21__label {
+    margin-left: 0px !important;
+}
+
+.kt-portlet__body.kt-portlet__body--fluid img.kt-widget-21__bg {
+    margin-left: 20px !important;
+}
+
+.kt-widget-21 .kt-widget-21__data {
+    justify-content: center;
+}
+
+.kt-notification .kt-notification__item .kt-notification__item-icon i {
+    font-size: 14px;
+    color: #485ad1;
+}
+
+
+/*Equipo*/
+
+form[name="equipos"] button.btn.btn-primary {
+    margin-bottom: 20px;
+}
+
+form[name="equipos"] .row h4 {
+    margin-left: 10px;
+}
+
+th.tabla-actions.sorting {
+    padding: 0px 40px !important;
+}
+
+.equipos #t1_filter.dataTables_filter,
+.equipos .row #slectEntidades,
+.equipos #slectProvincias {
+    margin-top: 2px !important;
+}
+
+.tabla-equipos tr th,
+.tabla-equipos tr td {
+    padding: 10px 5px !important;
+}
+
+textarea#equipos_aplicacionesInstaladas,
+textarea.aplicaciones-instaladas {
+    min-height: 130px;
+}
+
+
+/*Editar equipos*/
+
+#divAsignacionMarca .form-group {
+    width: 100%;
+}
+
+#divAsignacionMarca select#equipos_marca {
+    width: 85%;
+    float: left;
+    margin-right: 10px;
+}
+
+#divAsignacionMarca a {
+    margin-top: -13px;
+    display: block;
+}
+
+#divAsignacionMarca a i {
+    font-size: 15px;
+}
+
+
+/*Buscador equipos*/
+
+.buscador-equipos-resultados .table th {
+    padding: 8px 5px;
+}
+
+.buscador-equipos-resultados .table td {
+    padding: 8px 8px;
+}
+
+.buscador-equipos-quitar-md {
+    display: none;
+}
+
+.buscador-equipos #t1_filter {
+    display: none;
+}
+
+
+/*Dispositivos*/
+
+#slectEntidades {
+    margin-top: -37px;
+}
+
+
+/*avisos errores*/
+
+.badge-danger {
+    color: #fff;
+    background-color: #dc3545;
+}
+
+.invalid-feedback {
+    color: #dc3545;
+}
+
+.form-control.is-invalid {
+    border-color: #dc3545;
+}
+
+.kt-badge.kt-badge--danger {
+    color: #ffffff;
+    background: #dc3545;
+}
+
+
+/*Mantenimiento*/
+
+form[name="ejecuciones"] {
+    margin-top: 20px;
+}
+
+form[name="ejecuciones"] button.btn-success {
+    margin-bottom: 20px;
+}
+
+label[for="responsable"] {
+    height: 39px;
+}
+
+
+/*Asignaciones*/
+
+.row.asignaciones {
+    font-size: 13px !important;
+    border: 1px solid #485ad1;
+    border-radius: 4px;
+    padding: 20px 0px 5px 0px;
+    margin: 15px 0px 20px 0px;
+    background-color: #F7F8FA;
+    color: #495057;
+}
+
+.row.asignaciones h4 {
+    padding-left: 20px;
+    margin-left: 0px !important;
+}
+
+.row.asignaciones div p {
+    padding-left: 10px;
+}
+
+.row.asignaciones .table {
+    font-size: 13px;
+}
+
+.row.asignaciones .table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ebedf2;
+}
+
+
+/*Pestañas*/
+
+ul.nav.nav-tabs.nav-tabs-line {
+    border-radius: 4px;
+    font-size: 14px !important;
+    border: 1px solid #ebedf2;
+    background-color: #485ad1;
+}
+
+ul.nav.nav-tabs.nav-tabs-line li a {
+    border-bottom: none !important;
+    font-size: 18px !important;
+    font-weight: 500;
+    padding-right: 10px;
+    padding-left: 12px;
+    color: white !important;
+}
+
+ul.nav.nav-tabs.nav-tabs-line li.nav-item {
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+ul.nav.nav-tabs.nav-tabs-line li a.active,
+ul.nav.nav-tabs.nav-tabs-line li.nav-item:hover {
+    background-color: #2739c1 !important;
+}
+
+
+/*Espacios*/
+
+#espacios {
+    padding-bottom: 10px !important;
+}
+
+p.descargar-plantilla {
+    font-size: 14px;
+    padding-top: 37px;
+}
+
+p.descargar-plantilla a:hover {
+    font-weight: bold;
+}
+
+.descargar-plantilla {
+    font-size: 14px;
+    padding-top: 37px;
+}
+
+
+/*Equipamientos*/
+
+#equipamientos {
+    padding-bottom: 10px !important;
+}
+
+
+/*Buscadores*/
+
+h4.tituloBusquedas {
+    padding-left: 20px;
+}
+
+div.resultadoBusquedas {
+    padding-left: 20px;
+}
+
+
+/*Moviles*/
+
+.moviles #slectEntidades {
+    margin-top: -93px !important;
+}
+
+.moviles #t1_filter.dataTables_filter {
+    margin-top: -93px;
+}
+
+.moviles #t2_filter {
+    margin-top: -37px;
+}
+
+.moviles .row h4 {
+    margin-top: 30px;
+}
+
+#divAsignacionTelefono .form-group {
+    width: 100%;
+}
+
+#divAsignacionTelefono select#moviles_sim {
+    width: 85%;
+    float: left;
+    margin-right: 10px;
+}
+
+#divAsignacionTelefono a {
+    margin-top: -13px;
+    display: block;
+}
+
+#divAsignacionTelefono a i {
+    font-size: 15px;
+}
+
+
+/*bloques gestion*/
+
+.kt-portlet .kt-widget-19 h3 {
+    font-size: 15px;
+}
+
+.kt-portlet .kt-widget-19 a {
+    height: 3rem !important;
+    width: 3rem !important;
+}
+
+
+/*inputs readOnly*/
+
+input[readOnly] {
+    background-color: #f7f8fa !important;
+}
+
+
+/*Alert show equipos no actualizados en lote*/
+
+#showResulActualizar {
+    display: none;
+}
+
+.btn-nuevo {
+    margin-bottom: 35px !important;
+}
+
+@media (max-width: 768px) {
+    .col-btn-nuevo {
+        text-align: center;
+    }
+}
+
+#divBuscarLibroIsbn,
+#divBuscarLibroTitulo {
+    margin-top: 24px !important;
+    margin-left: -20px !important;
+}
+
+@media (max-width: 768px) {
+    #divBuscarLibroIsbn,
+    #divBuscarLibroTitulo {
+        margin-top: 0 !important;
+        margin-bottom: 1em!important;
+        margin-left: 0 !important;
+    }
+}
+
+.select2-container--default .select2-selection--single {
+    border: 1px solid #e2e5ec !important;
+}
